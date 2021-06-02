@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+
+section{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span{
+    color: #D6000D;
+}
+
+.logo{
+    font-size: 50px;
+    font-style: italic;
+    font-weight:1000;
+    cursor: pointer;
+}
+
+.header nav{
+    display: flex;
+    font-size: 20px;
+}
+
+.header nav ul{
+    display: flex;
+    list-style: none;
+
+}
+.header nav .button{
+    padding: 10px 60px;
+    background-color: #D6000D;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.header nav ul li{
+    margin-right: 40px;
+    padding: 10px;   
+}
+
+.header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.banner-container{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    padding: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.banner-container img{
+    width: 60vh;
+    margin: 0 50px;
+}
+
+.banner-text{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items:flex-start;
+    padding: 70px;
+}
+
+.banner-text p{
+    width: 500px;
+    font-size: 25px;
+    align-items:flex-start;
+    text-align: left;
+    font-weight: 700;
+}
+
+.banner-text span{
+    font-size: 60px;
+    font-weight: 1000;
+    text-align: left;
+    margin-bottom: 50px;
+    
+}
+
+.banner-text a{
+    background-color: #D6000D;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.bottom-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-container ul{
+    height: 50vh;
+    list-style-image: url(/assets/right-top-arrow-circle-solid-24.png);
+    font-size: 30px;
+    padding: 100px;
+    margin-left: 120px;
+    margin-right:120px ;
+}
+.bottom-container ul li{
+    margin-bottom: 10px;
+}
+
+.bottom-container img{
+    height: 60vh;
+    width: 70vh;
+    padding: 30px;
+}
+
+.form-container{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 200px;
+}
+
+.form-container p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.form-container form input[type=tel]{
+    padding: 10px;
+    border: none;
+    background: #d6d1d1;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.form-container form input[type=submit]{
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    background:#D6000D;
+    border-radius: 5px;
+}
+
+.people{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.people img{
+    height: 20vh;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.people1{
+    display: flex;
+    width: 50%;
+    background-color: rgb(221, 221, 221);
+    border-radius: 20px;
+    margin-right: 40px;
+}
+
+.people2{
+    display: flex;
+    width: 50%;
+    background-color: rgb(221, 221, 221);
+    border-radius: 20px;
+}
+
+.people .text1,.text2{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.people h3{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.people p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.bottom{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 40px 120px 40px;
+}
+
+.company{
+    width: 300px;
+    padding:20px ;
+}
+
+.about{
+    width: 240px;
+    padding: 30px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 30vh;
+    padding:20px ;
+}
+
+.social{
+    width: 240px;
+    padding: 30px;
+    
+}
+
+.company h1{
+    font-size: 50px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+
+.about h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.contact h3{
+    font-size: 25px;
+}
+
+.social h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.social ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.social ul li img{
+    filter: invert();
+}
+
+
+
+
+
+
